@@ -23,23 +23,23 @@ Not only the current random number but also index of the current random number i
 
 When ROOM 3 or LEMMY is selected, the following features are enabled.
 
-* Press Up to increment the random number at start by one.
-* Press Down to decrement the random number at start by one.
-* Press X+Up or Y+Up to increment random number at start by 100.
-* Press X+Down or Y+Down to decrement random number at start by 100.
+* Press Up to increment index of the random number at start by one.
+* Press Down to decrement index of the random number at start by one.
+* Press X+Up or Y+Up to increment index of the random number at start by 100.
+* Press X+Down or Y+Down to decrement index of the random number at start by 100.
 * When ROOM 3 is selected, press L to toggle random number at start in the order 0000(0), F040(295), C67C(572).
 * When LEMMY is selected, press L to toggle random number at start in the order E819(214), E17E(509), 43E0(786).
 * The random number when starting from ROOM 3 and the random number when starting from LEMMY are saved separately.
 * The starting random number and its index are displayed in the upper right corner of the screen.
 * When LEMMY is selected, the order in which Lemmy appear is displayed in the upper right corner of the screen.<br>
-  Red indicates sideways poses; yellow indicates other poses.
+  Red indicates sideways direction; yellow indicates other directions.
 
 ## Level Features
 
 ![level](level.png)
 
 * You can exit the level by Start-Select.
-* "MARIO START" and the level-beaten cutscenes are disabled.
+* Skip cutscene when entering the castle and when destroying the castle.
 * The current random number and its index are displayed in the upper left corner of the screen.
 * When you are in Lemmy's room, the order in which Lemmy appear is displayed in the upper left corner of the screen.<br>
   Red indicates sideways direction; yellow indicates other directions.
